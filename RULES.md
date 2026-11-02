@@ -9,7 +9,7 @@ These are a starting set. Replace "Owner" with the human who runs the org. Only 
 4. Deploys, merges to the main branch and final sign-offs need the Owner's own yes.
 5. A yes the Owner gave to any seat counts once that seat quotes the Owner's exact words and the message id. The seat then acts and does not ask again.
 6. Once the Owner approves a goal or path, do not ask again about alternate routes. Return only for a serious deviation or a clearly better path.
-7. All approval asks go through one batched thread run by the lead agent. No side asks.
+7. All approval asks go through one batched thread run by the lead agent. No side asks. Only the lead answers the Owner; workers and managers never answer the Owner directly.
 8. Form-only issues (formatting, naming) never block a code change.
 
 ## B. Flow

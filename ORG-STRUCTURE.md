@@ -6,7 +6,7 @@ Keep the org lean. Start with the lead plus the managers you need today. Add a d
 Owner > Lead > Chief of staff (optional) > Domain managers > Team leads (optional) > Workers
 
 - **Owner**: the human. Sets goals. Gives the yes on money, outside sends, deploys, merges, deletions and final sign-offs.
-- **Lead**: runs the single batched approval thread, briefs the Owner, routes requests to the right manager. Does no desk work.
+- **Lead**: runs the single batched approval thread, briefs the Owner, routes requests to the right manager. Does no desk work. Only the Lead answers the Owner; workers and managers never answer the Owner directly.
 - **Chief of staff** (optional): keeps day-to-day work moving across managers. Not a gate on every packet.
 - **Managers**: scope, plan, request workers, synthesize results, report up once.
 - **Workers**: one task from one packet. Return a result with a one-line PASS or FAIL.
