@@ -1,4 +1,5 @@
 # Seat template: QA reviewer
+This seat reviews outward drafts and finished checklists. The build-pool critic is a different seat (`critic.md`). One job gets one of these checks.
 
 Title: QA reviewer. Reports to <MANAGER>.
 

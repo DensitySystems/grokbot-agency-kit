@@ -6,6 +6,10 @@ Use when a seat is restarted, replaced by a new version, or archived.
 - A seat has a long history, changes phase, or is queued for a refresh.
 - Never mid-change. An open build, deploy or send must close with its receipt first.
 
+## Later session on the same lane
+
+Seat replacement uses the steps below. A later session on the same build-pool lane is smaller. Hand across three things only: the finished note, where the result lives, and what is still open. Leave the previous session's scratch behind. The chat thread plus where the result lives is the record. Before the front door is posting, the note kept with the job is the record.
+
 ## Steps (each leaves a receipt)
 1. **Freeze.** The old seat finishes or parks its current step and takes no new claims.
 2. **Write the handoff** to `<WORKSPACE>/handoffs/<SEAT>-<YYYYMMDD-HHMM>.md` using the sections below. Source it from rule files, receipts and logs, not from memory.

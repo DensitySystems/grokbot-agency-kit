@@ -15,22 +15,22 @@ It contains no credentials, no real names, no hosts, no accounts and no client d
 |---|---|
 | LICENSE | MIT license, credited to Density Systems. |
 | RULES.md | The short, binding rule set. Start here. |
-| ORG-STRUCTURE.md | A lean org shape: owner, lead, managers, workers, rooms. |
+| ORG-STRUCTURE.md | A lean org shape: owner, lead, managers, workers, rooms, and the build-pool layer. |
 | HANDOFF.md | How to replace or archive a seat without losing state. |
 | CREDIT-SAVING.md | The method for running agents cheaply. |
-| seat-templates/ | Profile templates: manager, worker, customer service, QA, generic. |
+| seat-templates/ | Profile templates: manager, worker, critic, customer service, QA, generic. The critic scores a build. QA reviews an outward draft. |
 | routines/ | Example prompts: quiet watcher, keep-alive, webhook inbound with dedupe wait. |
 
 ## Quick start
 1. Read RULES.md and CREDIT-SAVING.md (10 minutes).
 2. Create a rules file in your workspace from RULES.md. Edit it into your own words. Only rules the owner actually states should bind.
-3. Create a lead agent and one manager per domain you actually need (see ORG-STRUCTURE.md). Start with two or three, not nine.
+3. Create a lead agent and one manager per domain you actually need (see ORG-STRUCTURE.md). Start with two or three, not nine. In a build pool, the front door mints those managers and does not mint the workers.
 4. Use seat-templates/ to write each profile. Keep profiles short.
 5. Add routines one at a time, quiet by default (see routines/).
 6. When a seat gets long or changes phase, follow HANDOFF.md.
 
 ## Principles in one paragraph
-Each request goes down the chain once and the result comes back up once, like a breath cycle. Research, then plan, then execute, and do not re-decide the plan during execution. One check per job, done by its owner. Managers delegate and do not do the work. Workers are created per task and archived three days after the task closes. Routines post only when something changed. Use the smallest tool that does the job.
+Each request goes down the chain once and the result comes back up once, like a breath cycle. Research, then plan, then execute, and do not re-decide the plan during execution. One check per job, done by its owner. Managers delegate and do not do the work. Workers are created per task and archived three days after the task closes. Routines post only when something changed. Use the smallest tool that does the job. The organization picture (2026-10-25) and the build pool (2026-11-15) are both in force, and the files name the layer where they differ. In a build pool the front door mints one manager per lane, that manager mints the workers, and the single return is COMPLETE when the gate is met.
 
 ## Related
 - [densityrouter](https://github.com/DensitySystems/densityrouter): a small, standard-library Python router that picks which AI coding CLI runs a job file. Useful once your org has more than one coding tool.

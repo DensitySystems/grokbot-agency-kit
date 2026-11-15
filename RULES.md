@@ -9,16 +9,16 @@ These are a starting set. Replace "Owner" with the human who runs the org. Only 
 4. Deploys, merges to the main branch and final sign-offs need the Owner's own yes.
 5. A yes the Owner gave to any seat counts once that seat quotes the Owner's exact words and the message id. The seat then acts and does not ask again.
 6. Once the Owner approves a goal or path, do not ask again about alternate routes. Return only for a serious deviation or a clearly better path.
-7. All approval asks go through one batched thread run by the lead agent. No side asks. Only the lead answers the Owner; workers and managers never answer the Owner directly.
+7. All approval asks go through one batched thread run by the lead agent. No side asks. Only the lead answers the Owner; workers and managers never answer the Owner directly. Organization picture, 2026-10-25: approval asks stay on the Lead's one batched thread, and workers and managers do not answer the Owner. Build pool, 2026-11-15: workers return text to the manager, the manager returns text to the front door, and the front door posts one work reply on the lane's chat thread. The front door and the Lead may be the same seat. A work reply is not a side approval ask.
 8. Form-only issues (formatting, naming) never block a code change.
 
 ## B. Flow
-9. One flow, like a breath cycle: each ask goes down once (Owner, manager, worker) and its result comes up once, when the work is complete. No mid-flow ping-pong, no sideways forwarding, no status loops. A blocker goes up once, to the next level only.
-10. Research, then plan, then execute. After execution starts, the plan is settled: no re-review, re-approval or re-research of what was decided at the start.
-11. One check per job, done by the seat that owns the job. No stacked reviews by additional reviewers or managers.
-12. Managers delegate and scope. They do not do the work and they are not message pass-throughs.
-13. Mint worker seats on demand, one task per worker, and archive each one three days after its task closes.
-14. Team work happens in breakout rooms of at most six members. Workers never send updates to the Owner directly.
+9. One flow, like a breath cycle: each ask goes down once (Owner, manager, worker) and its result comes up once, when the work is complete. No mid-flow ping-pong, no sideways forwarding, no status loops. A blocker goes up once, to the next level only. Organization picture, 2026-10-25: that cycle is the flow. Build pool, 2026-11-15: the one result is COMPLETE, posted only when the gate is met. One status goes up only when the work is blocked. While the work is merely running, post nothing. When the Owner asks for quiet, stay quiet until the gate is met. Several human messages on one chat thread become one reply. A background manager is for a lane that will outlive one turn. Do not poll it, and do not post on a timer. While the lane is waiting on the Owner for a gated yes, a background manager is the wrong tool: stop, and send the one blocked line. This is the same breath.
+10. Research, then plan, then execute. After execution starts, the plan is settled: no re-review, re-approval or re-research of what was decided at the start. Build pool, 2026-11-15: name the work type before anyone is minted. That choice is the start of the lane. It is not a re-decision during execution. The done line for that work type, in ORG-STRUCTURE.md, is the gate for COMPLETE. Those rows add no check beyond rule 11.
+11. One check per job, done by the seat that owns the job. No stacked reviews by additional reviewers or managers. Organization picture, 2026-10-25: that one check stands, and one QA review of an outward draft is that check. Build pool, 2026-11-15: when the work type is coding and a person will see the change, and when the work type is refinement, the one check is a separate critic worker. The bar stays at least 9.5 out of 10 until the Owner raises it. Do not inflate a score to clear the bar. The critic is that one check. The manager does not also score the work. QA is not the critic. A score under the bar returns what is left to the same job. It does not add a reviewer. Parallel workers do not lower the bar.
+12. Managers delegate and scope. They do not do the work and they are not message pass-throughs. Build pool, 2026-11-15: on one claim the manager does not wear designer, critic, and coder. The manager coordinates, scopes, and synthesizes.
+13. Mint worker seats on demand, one task per worker, and archive each one three days after its task closes. Organization picture, 2026-10-25: HR creates the worker seat and archives it three days after its task closes. Build pool, 2026-11-15: the front door mints managers only, one manager per lane, and does not mint workers. The manager mints the workers for that lane. A worker does one slice, then stops. The front door stays up. Do not archive the front door after one job. The three-day archive applies to organization-picture task seats.
+14. Team work happens in breakout rooms of at most six members. Workers never send updates to the Owner directly. Organization picture, 2026-10-25: that cap is the chat breakout. Workers post in the room, never to the Owner. Build pool, 2026-11-15: the pool is not that chat room. A manager may run many workers at once when their outputs do not overlap. Those workers are sessions. They do not raise the room cap. Workers still never message the Owner. Workers return text to the manager. The manager returns text to the front door. The front door posts the one chat-thread reply.
 15. No time-of-day holds on any lane unless the Owner sets one.
 
 ## C. Outside contact and data
@@ -35,5 +35,10 @@ These are a starting set. Replace "Owner" with the human who runs the org. Only 
 22. The HR or ops agent logs each failure as one line in a failure log. A failure never becomes a rule by itself.
 23. Never add a check or rule without the Owner's own words.
 
+24. Prefer public APIs and keys the org owns. Do not take credentials that are not yours. Do not run bulk scrapes that break a service's terms.
+
+25. One lane has one manager. Do not run that same lane on two pools at once. Unrelated claims are two lanes, two managers, and two chat threads.
+
 ## Precedence
 If any other file (a seat profile, a charter, a template) conflicts with this file, this file wins. Anything not listed here is suspended until the Owner says otherwise.
+Rules 7, 9, 10, 11, 12, 13, and 14 name an organization picture (2026-10-25) and a build pool (2026-11-15) where those words appear. Both layers bind. A build-pool sentence does not erase the organization-picture sentence in the same rule. Another file that conflicts with either layer is suspended on that point.
