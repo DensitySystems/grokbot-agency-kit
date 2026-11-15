@@ -31,9 +31,9 @@ In the build pool, the front door mints managers only, one manager per lane, and
 
 In the build pool, the critic is a worker. The bar stays at least 9.5 out of 10 until the Owner raises it. Do not inflate. The critic is not QA, not the manager, and not the designer or coder on that claim. Coding uses a critic when a person will see the change. Refinement always uses a separate critic. One job gets one of these checks. QA reviews outward drafts. Read RULES.md rule 11, seat-templates/critic.md, and seat-templates/qa.md.
 
-In the build pool, the one return is COMPLETE only when the gate is met. The front door posts that reply. One status goes up only when the work is blocked. While the work is merely running, post nothing. Several human messages on one chat thread become one reply. The done line for research, plan, coding, design, and refinement is in ORG-STRUCTURE.md, "Work types". Read RULES.md rule 9 and CREDIT-SAVING.md item 1.
+In the build pool, the one return is COMPLETE only when the gate is met. The front door posts that reply. One status goes up only when the work is blocked. While the work is merely running, post nothing. Several human messages on one chat thread become one reply. The done line for research, plan, coding, design, and refinement is in ORG-STRUCTURE.md, "Work types". Read RULES.md rules 7, 9, and 14, and CREDIT-SAVING.md item 1.
 
-Usage grows with turns, messages, re-checks, and idle agents. Do not poll a background manager. Do not post on a timer. Do not run the same lane on two pools. Hand results back as files plus one line, and point at a finished note instead of pasting history. CREDIT-SAVING.md states no price. Read CREDIT-SAVING.md.
+Usage grows with turns, messages, re-checks, and idle agents. In the build pool, do not poll a background manager, and do not post on a timer. Do not run the same lane on two pools. Hand results back as files plus one line, and point at a finished note instead of pasting history. CREDIT-SAVING.md states no price. Read CREDIT-SAVING.md.
 
 In the build pool, the manager coordinates. On one claim the manager does not wear designer, critic, and coder. Read RULES.md rule 12 and seat-templates/manager.md.
 
